@@ -1,17 +1,26 @@
 {
-    "workbench.colorTheme": "Dracula",
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.tabSize": 2,
-    "editor.fontSize": 14,
-    "editor.lineHeight": 26,
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.fontLigatures": true,
-    "editor.semanticHighlighting.enabled": false,
-    "security.workspace.trust.untrustedFiles": "open",
-    "tabnine.experimentalAutoImports": true,
-    "editor.minimap.enabled": false,
-    "breadcrumbs.enabled": false,
-    "editor.renderWhitespace": "none",
-    "window.zoomLevel": 1,
-    "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "material-icon-theme",
+
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 26,
+  "editor.fontFamily": "Cascadia Code",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.semanticHighlighting.enabled": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.wordWrap": "on",
+
+  "security.workspace.trust.untrustedFiles": "open",
+  "tabnine.experimentalAutoImports": true,
+  "breadcrumbs.enabled": false,
+  "window.zoomLevel": 1,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "bracketPairColorizer.depreciation-notice": false
 }
