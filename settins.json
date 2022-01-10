@@ -1,9 +1,10 @@
 {
   "workbench.colorTheme": "Dracula",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.fontAliasing": "auto",
 
   "editor.tabSize": 2,
-  "editor.fontSize": 14,
+  "editor.fontSize": 16,
   "editor.lineHeight": 26,
   "editor.fontFamily": "Cascadia Code",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -16,11 +17,27 @@
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "none",
   "editor.wordWrap": "on",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": true,
 
+  "colorize.languages": [
+    "javascript",
+    "css",
+    "sass",
+    "scss",
+    "less",
+    "postcss",
+    "sss",
+    "stylus",
+    "xml",
+    "svg"
+  ],
   "security.workspace.trust.untrustedFiles": "open",
   "tabnine.experimentalAutoImports": true,
   "breadcrumbs.enabled": false,
-  "window.zoomLevel": 1,
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome",
   "liveServer.settings.donotShowInfoMsg": true,
-  "bracketPairColorizer.depreciation-notice": false
+  "bracketPairColorizer.depreciation-notice": false,
+  "window.zoomLevel": 1,
+  "explorer.confirmDelete": false
 }
