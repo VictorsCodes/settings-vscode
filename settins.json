@@ -38,6 +38,6 @@
   "liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome",
   "liveServer.settings.donotShowInfoMsg": true,
   "bracketPairColorizer.depreciation-notice": false,
-  "window.zoomLevel": 1,
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
+  "window.zoomLevel": 1
 }
