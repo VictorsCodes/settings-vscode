@@ -1,17 +1,25 @@
 {
-  "workbench.colorTheme": "Dracula",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.fontAliasing": "auto",
+  "workbench.statusBar.visible": false,
 
   "editor.tabSize": 2,
   "editor.fontSize": 16,
   "editor.lineHeight": 26,
-  "editor.fontFamily": "Cascadia Code",
+  "editor.fontFamily": "Fira Code",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
   "editor.semanticHighlighting.enabled": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.minimap.enabled": false,
@@ -19,6 +27,8 @@
   "editor.wordWrap": "on",
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
 
   "colorize.languages": [
     "javascript",
@@ -30,14 +40,25 @@
     "sss",
     "stylus",
     "xml",
-    "svg"
+    "svg",
+    "ts",
+    "typescript"
   ],
+
   "security.workspace.trust.untrustedFiles": "open",
   "tabnine.experimentalAutoImports": true,
   "breadcrumbs.enabled": false,
+
   "liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome",
   "liveServer.settings.donotShowInfoMsg": true,
-  "bracketPairColorizer.depreciation-notice": false,
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
   "explorer.confirmDelete": false,
-  "window.zoomLevel": 1
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Omni"
 }
